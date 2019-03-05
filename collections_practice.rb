@@ -8,7 +8,7 @@ end
 
 def first_wa(arr)
  arr = arr.grep(String)
- arr.find {|x| x.start_with?"wa"}
+ arr.find {|x| x.start_with? "wa"}
 end
 
 def remove_non_strings(arr)
